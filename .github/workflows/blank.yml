@@ -33,7 +33,7 @@ jobs:
 #            path: ./openwrt/bin/targets
             
       - name: upload image
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with: 
             name: openwrt-sunxi-cortexa53-xunlong_orangepi-zero2-squashfs-sdcard.img.gz
             path: ./openwrt/bin/targets/sunxi/cortexa53/openwrt-sunxi-cortexa53-xunlong_orangepi-zero2-squashfs-sdcard.img.gz
